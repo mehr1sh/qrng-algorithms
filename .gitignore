@@ -1,0 +1,20 @@
+# Build directories
+build/
+bin/
+lib/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE specific
+.vscode/
+.idea/
+*.user
+*.swp
+*~
+*.bak
+
+# System files
+.DS_Store
