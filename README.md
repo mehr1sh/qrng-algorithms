@@ -2,7 +2,7 @@
 
 A C++ implementation of a Quantum Random Number Generator (QRNG) with comprehensive statistical analysis of multiple RNG algorithms.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - C++17 compatible compiler (GCC/Clang)
@@ -19,7 +19,7 @@ cmake ..
 make
 ```
 
-## 🧪 Running the QRNG
+## Running the QRNG
 
 ### Basic Usage
 Run the QRNG with default settings (1 qubit, 1000 shots):
@@ -38,7 +38,7 @@ Run the QRNG with default settings (1 qubit, 1000 shots):
 - `PCG` - Modern alternative with good statistical properties
 - `QUANTUM_SIMULATED` - Simulated quantum measurements
 
-## 🔄 Comparing Algorithms
+## Comparing Algorithms
 
 ### Run All Algorithms
 Compare all implemented algorithms with the same parameters:
@@ -71,7 +71,7 @@ Runs test p-value: 0.480651
 All tests passed: YES
 ```
 
-## 📊 Features
+## Features
 
 ### Implemented Algorithms
 - **Quantum-inspired RNG**: Simulates quantum measurements
@@ -86,7 +86,7 @@ All tests passed: YES
 - **Entropy analysis**: Shannon and min entropy calculations
 - **Performance metrics**: Generation speed and memory usage
 
-## 🧪 Testing Methodology
+## Testing Methodology
 
 ### Test Setup
 - **Hardware**: Standard x86_64 system
@@ -125,7 +125,7 @@ All tests passed: YES
 - **Quantum Simulated** provides true randomness but is slower
 - **Mersenne Twister** and **Xoshiro** offer a good balance
 
-## 📚 Documentation
+## Documentation
 
 1. [Overview](docs/overview.md) - Introduction to QRNG and project goals
 2. [Technical Details](docs/technical.md) - Implementation specifics
@@ -133,7 +133,7 @@ All tests passed: YES
 4. [Results](docs/DETAILED_RESULTS.md) - Performance and statistical analysis
 5. [Algorithm Details](docs/HOW_ALGORITHMS_WORK.md) - How each RNG works
 
-## 🔍 Example Output
+## Example Output
 
 ```
 === Testing Mersenne Twister ===
@@ -145,12 +145,6 @@ Chi-square p-value: 0.222465
 Runs test p-value: 0.480651
 All tests passed: YES
 ```
-
-## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-- Qt6 Core module
-- Google Test (for testing, automatically downloaded by CMake)
-- Doxygen (optional, for documentation)
 
 ## Building the Project
 
@@ -303,7 +297,7 @@ We conducted a comprehensive evaluation of four random number generation algorit
    - Memory usage
    - Security analysis
 
-📊 [View Complete Testing Methodology](docs/TESTING_METHODOLOGY.md)
+[View Complete Testing Methodology](docs/TESTING_METHODOLOGY.md)
 
 ### Key Findings
 
@@ -314,7 +308,7 @@ We conducted a comprehensive evaluation of four random number generation algorit
 | **Xorshift** | 800.00 | 0.9995 | ★★☆☆☆ | High-speed Apps |
 | **LCG** | 1204.82 | 0.8532 | ☆☆☆☆☆ | Legacy Systems |
 
-🔍 [See Detailed Results](docs/DETAILED_RESULTS.md) | 📚 [How These Algorithms Work](docs/HOW_ALGORITHMS_WORK.md)
+[See Detailed Results](docs/DETAILED_RESULTS.md) | 📚 [How These Algorithms Work](docs/HOW_ALGORITHMS_WORK.md)
 
 ## Getting Started
 
@@ -344,10 +338,10 @@ ctest --output-on-failure
 
 ## Documentation
 
-- [📘 Testing Methodology](docs/TESTING_METHODOLOGY.md) - Detailed explanation of testing procedures
-- [📊 Detailed Results](docs/DETAILED_RESULTS.md) - Complete test data and analysis
-- [🔍 How RNGs Work](docs/HOW_ALGORITHMS_WORK.md) - Simple explanations of each algorithm
-- [📝 API Reference](docs/API.md) - Code documentation
+- [Testing Methodology](docs/TESTING_METHODOLOGY.md) - Detailed explanation of testing procedures
+- [Detailed Results](docs/DETAILED_RESULTS.md) - Complete test data and analysis
+- [How RNGs Work](docs/HOW_ALGORITHMS_WORK.md) - Simple explanations of each algorithm
+- [API Reference](docs/API.md) - Code documentation
 
 ## Acknowledgments
 
