@@ -364,17 +364,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) before submitting pull requests.
 
-## Citation
 
-If you use this work in your research, please cite:
-
-```
-@software{QRNG_Project,
-  author = {Your Name},
-  title = {Quantum Random Number Generator: A Comparative Analysis},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/project-QRNG}}
-}
-```
