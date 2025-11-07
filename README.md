@@ -349,13 +349,9 @@ ctest --output-on-failure
 - [🔍 How RNGs Work](docs/HOW_ALGORITHMS_WORK.md) - Simple explanations of each algorithm
 - [📝 API Reference](docs/API.md) - Code documentation
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
-- Developed as part of an advanced algorithms course
+- Developed as part of the Algorithms Analysis and Design course at IIITH
 - Statistical tests based on NIST SP 800-22 recommendations
 - Uses Qt6 for cross-platform compatibility
 - Special thanks to the quantum computing research community
